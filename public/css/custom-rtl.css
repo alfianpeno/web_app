@@ -1,0 +1,46 @@
+
+/* custom dark-mode && rtl css */
+
+[dir="rtl"] .dash-sidebar {
+    left: auto !important;
+}
+
+[dir="rtl"] .dash-header {
+    left: 0;
+    right: 280px;
+}
+[dir="rtl"] .dash-header:not(.transprent-bg) .header-wrapper {
+    padding: 0 0 0 30px;
+}
+
+[dir="rtl"] .dash-header:not(.transprent-bg):not(.dash-mob-header)~.dash-container {
+    margin-left: 0px;
+}
+
+[dir="rtl"] .me-auto.dash-mob-drp {
+    margin-right: 10px !important;
+}
+
+[dir="rtl"] .me-auto {
+    margin-left: 10px !important;
+}
+
+
+[dir="rtl"] .header-wrapper .ms-auto {
+    margin-left: 0 !important;
+}
+
+[dir="rtl"] .dash-header {
+    left: 0 !important;
+    right: 280px !important;
+}
+
+[dir="rtl"] .list-group-flush>.list-group-item .float-end {
+    float: left !important;
+}
+
+.float-end{
+    float: left !important;
+}
+
+/*  custom End dark-mode && rtl css  */
